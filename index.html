@@ -2,17 +2,27 @@
 <head>
   <title>MusicFree</title>
   <link rel="stylesheet" href="https://flybot2010-lab.github.io/musicfree/style.css">
+  <script>
+    function ServerOne()
+    {
+      myWindow=window.open('serverone','myWin','width=400,height=650')
+    }
+    function ServerTwo()
+    {
+      myWindow=window.open('servertwo','myWin','width=400,height=650')
+    }
+  </script>
 </head>
 <body>
   <h1>MusicFree</h1>
   <h2>Server Selector</h2>
   <h2>Server 1:</h2>
   <!-- yewtu.be -->
-  <img alt="Server 1 Status" src="https://img.shields.io/uptimerobot/status/m783898765-2a4efa67aa8d1c7be6b1dd9d">
+  <onclick="ServerOne()" class="button">Use Server One</a>
+  <img alt="Server 1 Status" src="https://img.shields.io/uptimerobot/status/m783898765-2a4efa67aa8d1c7be6b1dd9d"?style=plastic>
   <h2>Server 2:</h2>
+  <onclick="ServerTwo()" class="button">Use Server Two</a>
   <img alt="Server 2 Status" src="https://img.shields.io/uptimerobot/status/m786947233-1131c3f67b9a20621b1926d3?style=plastic">
   <br>
-  <a href="#" class="button">Server One</a>
-  <a href="#" class="button">Server Two</a>
-
+  <P>if using microsoft edge, please use Internet Explorer Compatablility Mode.</P>
 </body>
